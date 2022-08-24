@@ -5,7 +5,7 @@ using UnityEngine;
 * Generic Timer method that will call a provided method on the provided target GameObject in the given interval of seconds
 * @private timer and running are handled thru enabling and disabling this Component on a GameObject
 *
-* This component can be added dynamically and adjust via script (all fields are public)
+* This component can also be added/controlled dynamically via script (all useful fields are public)
 */
 public class TSTimer : MonoBehaviour {
 
